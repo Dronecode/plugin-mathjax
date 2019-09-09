@@ -118,7 +118,7 @@ function processBlock(blk) {
     @return {Object}
 */
 function getWebsiteAssets() {
-    var version = this.config.get('pluginsConfig.mathjax.version', '2.7.1');
+    var version = this.config.get('pluginsConfig.mathjax.version', '2.7.6');
 
     return {
         assets: "./book",
